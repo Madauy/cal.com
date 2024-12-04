@@ -42,7 +42,7 @@ const DatePicker = dynamic(() => import("./components/DatePicker").then((mod) =>
 const BookerComponent = ({
   username,
   eventSlug,
-  hideBranding = false,
+  hideBranding = true,
   entity,
   isInstantMeeting = false,
   onGoBackInstantMeeting,
